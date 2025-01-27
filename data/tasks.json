@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "title": "Learn Nuxt 3",
+    "text": "Learn the basics of Nuxt 3, including its core concepts and usage.",
+    "description": "Explore the documentation and build a small application using Nuxt 3 to understand how it works.",
+    "order": 1,
+    "status": "завершённая",
+    "dateCreated": "2025-01-20",
+    "deadline": "2025-01-25",
+    "completed": true,
+    "priority": "medium",
+    "link": "https://nuxt.com",
+    "subTasks": [
+      {
+        "name": "Read Nuxt 3 documentation",
+        "completed": true
+      },
+      {
+        "name": "Build a small project",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Set up CI/CD pipeline",
+    "text": "Configure a CI/CD pipeline for the project.",
+    "description": "Set up GitHub Actions to automate testing and deployment for the repository.",
+    "order": 2,
+    "status": "текущая",
+    "dateCreated": "2025-01-22",
+    "deadline": "2025-01-30",
+    "completed": false,
+    "priority": "high",
+    "link": "https://docs.github.com/en/actions",
+    "subTasks": [
+      {
+        "name": "Research CI/CD tools",
+        "completed": true
+      },
+      {
+        "name": "Write pipeline YAML file",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Write project documentation",
+    "text": "Prepare comprehensive documentation for the project.",
+    "description": "Include setup instructions, API references, and usage guidelines.",
+    "order": 3,
+    "status": "открытая",
+    "dateCreated": "2025-01-23",
+    "deadline": "2025-02-05",
+    "completed": false,
+    "priority": "medium",
+    "link": "https://example.com/docs-template",
+    "subTasks": [
+      {
+        "name": "Write setup instructions",
+        "completed": false
+      },
+      {
+        "name": "Add API references",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Optimize database queries",
+    "text": "Analyze and optimize slow database queries.",
+    "description": "Identify and refactor queries causing performance bottlenecks.",
+    "order": 4,
+    "status": "текущая",
+    "dateCreated": "2025-01-21",
+    "deadline": null,
+    "completed": false,
+    "priority": "high",
+    "link": "https://sqlperformance.com",
+    "subTasks": [
+      {
+        "name": "Profile slow queries",
+        "completed": true
+      },
+      {
+        "name": "Refactor queries",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Design landing page",
+    "text": "Create an engaging landing page for the product.",
+    "description": "Focus on responsive design and clear call-to-action buttons.",
+    "order": 5,
+    "status": "открытая",
+    "dateCreated": "2025-01-24",
+    "deadline": "2025-02-10",
+    "completed": false,
+    "priority": "medium",
+    "link": "https://dribbble.com",
+    "subTasks": [
+      {
+        "name": "Create wireframes",
+        "completed": false
+      },
+      {
+        "name": "Develop responsive layout",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Conduct user testing",
+    "text": "Gather feedback by conducting user testing sessions.",
+    "description": "Organize sessions to understand user pain points and improve UX.",
+    "order": 6,
+    "status": "открытая",
+    "dateCreated": "2025-01-18",
+    "deadline": "2025-02-03",
+    "completed": false,
+    "priority": "low",
+    "link": "https://usertesting.com",
+    "subTasks": [
+      {
+        "name": "Recruit test participants",
+        "completed": true
+      },
+      {
+        "name": "Analyze feedback",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Implement authentication",
+    "text": "Add user authentication to the application.",
+    "description": "Integrate a secure login and registration system using OAuth.",
+    "order": 7,
+    "status": "текущая",
+    "dateCreated": "2025-01-25",
+    "deadline": "2025-02-01",
+    "completed": false,
+    "priority": "high",
+    "link": "https://auth0.com",
+    "subTasks": [
+      {
+        "name": "Set up OAuth provider",
+        "completed": true
+      },
+      {
+        "name": "Implement login functionality",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Update backend API",
+    "text": "Add new endpoints to the backend API.",
+    "description": "Create endpoints for managing user preferences and settings.",
+    "order": 8,
+    "status": "текущая",
+    "dateCreated": "2025-01-26",
+    "deadline": null,
+    "completed": false,
+    "priority": "medium",
+    "link": "https://swagger.io",
+    "subTasks": [
+      {
+        "name": "Design API schema",
+        "completed": true
+      },
+      {
+        "name": "Develop endpoints",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Run performance tests",
+    "text": "Ensure the application meets performance benchmarks.",
+    "description": "Run load tests and identify areas for improvement.",
+    "order": 9,
+    "status": "открытая",
+    "dateCreated": "2025-01-15",
+    "deadline": "2025-02-01",
+    "completed": false,
+    "priority": "low",
+    "link": "https://k6.io",
+    "subTasks": [
+      {
+        "name": "Write performance test cases",
+        "completed": false
+      },
+      {
+        "name": "Analyze test results",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Prepare for presentation",
+    "text": "Create slides and rehearse for the upcoming presentation.",
+    "description": "Focus on communicating the key features and results clearly.",
+    "order": 10,
+    "status": "текущая",
+    "dateCreated": "2025-01-27",
+    "deadline": "2025-01-31",
+    "completed": false,
+    "priority": "high",
+    "link": "https://slidesgo.com",
+    "subTasks": [
+      {
+        "name": "Design presentation slides",
+        "completed": false
+      },
+      {
+        "name": "Practice speech",
+        "completed": false
+      }
+    ]
+  }
+]
